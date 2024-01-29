@@ -15,5 +15,5 @@ provider "aws" {
 
 # plan
 resource "aws_s3_bucket" "my_s3_bucket_zeeshan_786" {
-    bucket = "my-s3-bucket-in28minutes-rangak-002"
+    bucket = "my-s3-bucket-zeeshan-786"
 }
