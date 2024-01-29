@@ -1,6 +1,6 @@
 variable "usersfor"{
     default = {
-        zeeshan: {country : "Netherlands" , freinds : "US"}
+        zeeshan: {country : "Netherlands" , friends : "US"}
         kareem: {country : "canada" , friends : "noone"}
         talib:  {country : "india" , friends : "veryless"}
     }
