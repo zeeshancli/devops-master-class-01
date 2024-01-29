@@ -35,6 +35,13 @@ resource "aws_s3_bucket_versioning" "versioning_example" {
   }
 }
 
+resource "aws_s3_bucket" "your_s3_bucket_rizwan_786_03" {
+    bucket = "my-s3-bucket-rizwan-786-03"
+ #   versioning {
+ #       enabled = true
+ #   }
+}
+
 
 output "my_s3_bucket_versioning" {
     value = aws_s3_bucket.your_s3_bucket_rizwan_786_01.versioning[0].enabled
