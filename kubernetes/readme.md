@@ -152,5 +152,6 @@ kubectl delete all -l app=hello-world-rest-api
 kubectl get all
 
 kubectl apply -f deployment.yaml 
-kubectl apply -f ../currency-conversion/deployment.yaml 
+kubectl apply -f ../currency-conversion/deployment.yaml
+kubectl get pods
 ```
