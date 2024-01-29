@@ -14,11 +14,11 @@ provider "aws" {
 }
 
 # plan
-resource "aws_s3_bucket" "my_s3_bucket_rizwan_786_01" {
+resource "aws_s3_bucket" "your_s3_bucket_rizwan_786_01" {
     bucket = "my-s3-bucket-rizwan-786-01"
 }
 
-resource "aws_s3_bucket" "my_s3_bucket_rizwan_786_01" {
+resource "aws_s3_bucket" "your_s3_bucket_rizwan_786_01" {
     bucket = "my-s3-bucket-rizwan-786-01"
  #   versioning {
  #       enabled = true
@@ -26,7 +26,7 @@ resource "aws_s3_bucket" "my_s3_bucket_rizwan_786_01" {
 }
 
 resource "aws_s3_bucket_versioning" "versioning_example" {
-  bucket = aws_s3_bucket.my_s3_bucket_rizwan_786_01.id
+  bucket = aws_s3_bucket.your_s3_bucket_rizwan_786_01.id
   versioning_configuration {
     status = "Enabled"
   }
@@ -37,5 +37,5 @@ resource "aws_iam_user" "my_iam_user" {
 }
 
 output "my_s3_bucket_versioning" {
-    value = aws_s3_bucket.my_s3_bucket_rizwan_786_01.versioning[0].enabled
+    value = aws_s3_bucket.your_s3_bucket_rizwan_786_01.versioning[0].enabled
 }
