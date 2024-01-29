@@ -1,4 +1,4 @@
-variables "users"{
+variable "users"{
     defaults = {
         zeeshan: {country: "Netherlands" , freinds: "US"}
         kareem: {country: "canada" , friends: "noone"}
