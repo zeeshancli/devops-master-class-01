@@ -15,11 +15,11 @@ provider "aws" {
 
 # plan
 resource "aws_s3_bucket" "my_s3_bucket_zeeshan_786_01" {
-    bucket = "my-s3-bucket-zeeshan-786_01"
+    bucket = "my-s3-bucket-zeeshan-786-01"
 }
 
 resource "aws_s3_bucket" "my_s3_bucket_zeeshan_786_01" {
-    bucket = "my-s3-bucket-zeeshan-786_01"
+    bucket = "my-s3-bucket-zeeshan-786-01"
  #   versioning {
  #       enabled = true
  #   }
