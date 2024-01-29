@@ -17,7 +17,7 @@ provider "aws" {
 
 resource "aws_s3_bucket" "your_s3_buckets" {
     count = 3
-    bucket = "${var.my-s3-bucket-prefix}_${count.index}"
+    bucket = "my-s3-bucket-prefix-${count.index}"
  #   versioning {
  #       enabled = true
  #   }
