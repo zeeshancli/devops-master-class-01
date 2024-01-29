@@ -10,7 +10,7 @@ provider "aws" {
   //version = "~> 2.46" (No longer necessary)
 }
 
-resource "aws_iam_user" "my_iam_users" {
+resource "aws_iam_user" "my_iam_second_users" {
     for_each = var.users
     name = each.key
     tags = {
